@@ -120,7 +120,6 @@ p {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
-  display: block;
 }
 .auth-nav .link.current {
   color: var(--accent-color);
@@ -133,7 +132,7 @@ p {
     ),
     url(../img/header.jpg);
   background-size: contain;
-  background-position: 50% 50%;
+  background-repeat: no-repeat;
   background-color: rgba(47, 48, 58, 1);
   text-align: center;
   padding: 200px 0;
