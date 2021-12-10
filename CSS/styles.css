@@ -125,17 +125,23 @@ p {
   color: var(--accent-color);
 }
 .hero {
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.5),
-      rgba(47, 48, 58, 0.3)
-    ),
-    url(../img/header.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
   background-color: rgba(47, 48, 58, 1);
   text-align: center;
   padding: 200px 0;
+}
+.overlay {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero .title {
@@ -327,47 +333,41 @@ img {
   margin: 0;
   padding-bottom: 50px;
 }
-.no-marker {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.client .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
-.clients {
+.company {
+  text-decoration: note;
   display: flex;
-  justify-content: center;
-  padding-bottom: 94px;
 }
-
-.clients-icons {
-  width: 106px;
-  height: 60px;
-  color: var(--primary-text-color);
-  fill: currentColor;
-}
-.client-list {
-  margin-right: 30px;
-  border: 1px solid var(--primary-text-color);
-  background-color: var(--additional-color);
-  border-radius: 4px;
-  color: var(--additional-color);
+.company-link {
   width: 170px;
   height: 92px;
   display: flex;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
 }
-.clients-list:hover,
-.clients-list:focus {
-  background-color: var(--accent-color);
+.company .item:not(:last-child) {
+  margin-right: 30px;
 }
-.clients-list:hover .clients-icons,
-.clients-list:focus .clients-icons {
-  fill: var(--additional-color);
+.company-icon {
+  fill: currentColor;
 }
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
+.company-link:hover,
+.company-link:focus {
+  color: #2196f3;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
+
 .end-page {
   padding: 60px 0;
   background-color: #2f303a;
@@ -581,4 +581,13 @@ li {
 }
 .products {
   padding: 24px 20px 24px 20px;
+}
+.projects-link {
+  display: block;
+  text-decoration: none;
+}
+.projects-link:hover,
+.projects-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
