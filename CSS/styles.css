@@ -337,15 +337,6 @@ img {
   justify-content: center;
   padding-bottom: 94px;
 }
-.clients-link {
-  border-radius: 4px;
-  color: var(--additional-color);
-  width: 170px;
-  height: 92px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .clients-icons {
   width: 106px;
@@ -357,15 +348,21 @@ img {
   margin-right: 30px;
   border: 1px solid var(--primary-text-color);
   background-color: var(--additional-color);
-}
-.clients-link .clients-icons:hover,
-.clients-link .clients-icons:focus {
+  border-radius: 4px;
   color: var(--additional-color);
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-list:hover,
+.clients-list:focus {
   background-color: var(--accent-color);
 }
-.clients-link:hover,
-.clients-link:focus {
-  fill: var(--accent-color);
+.clients-list:hover .clients-icons,
+.clients-list:focus .clients-icons {
+  fill: var(--additional-color);
 }
 li {
   display: list-item;
