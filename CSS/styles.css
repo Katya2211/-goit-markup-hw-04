@@ -362,6 +362,15 @@ img {
   text-decoration: none;
   font-style: normal;
 }
+.title-footer {
+  font-weight: bold;
+  line-height: 1.14;
+  color: var(--additional-color);
+  text-transform: uppercase;
+}
+.social-list {
+  display: flex;
+}
 
 /*portfolio section */
 .projects {
