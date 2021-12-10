@@ -340,6 +340,8 @@ img {
 .client-link {
   fill: var(--primary-text-color);
   border-radius: 4px;
+}
+.clients-icons {
   width: 106px;
   height: 60px;
 }
