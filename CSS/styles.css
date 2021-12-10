@@ -352,6 +352,19 @@ li {
   padding: 60px 0;
   background-color: #2f303a;
 }
+.container.order {
+  display: flex;
+  align-items: baseline;
+}
+.footer-container {
+  display: flex;
+  width: 206px;
+  height: 80px;
+  flex-direction: column;
+}
+.address-container {
+  margin-right: 70px;
+}
 
 .logo_second_color {
   color: var(--additional-color);
@@ -399,20 +412,32 @@ li {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
-.footer-container {
+.footer-icons {
+  padding: 0;
   display: flex;
-  align-items: baseline;
+  list-style: none;
 }
-.first-footer {
-  margin-right: 156px;
-}
-
-.social-list {
+.footer-list {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
   align-items: center;
-  display: inline-flex;
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-.social-link {
+.join-media {
+  fill: var(--additional-color);
+}
+.footer-icons a {
+  display: flex;
+}
+.footer-list:not(:last-child) {
   margin-right: 10px;
 }
 
