@@ -276,6 +276,55 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 16px;
+}
+
+.team-social-list li:not(:last-child) {
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
+.team-social-list li {
+  list-style: none;
+}
+.team-social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  fill: var(--additional-color);
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+}
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedIn {
+  width: 20px;
+  height: 20px;
+}
+.instagram,
+.twitter,
+.facebook,
+.linkedIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .end-page {
   padding: 60px 0;
   background-color: #2f303a;
