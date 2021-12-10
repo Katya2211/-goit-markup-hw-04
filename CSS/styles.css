@@ -443,6 +443,14 @@ li {
 .footer-list:not(:last-child) {
   margin-right: 10px;
 }
+.footer-list:hover .join-media,
+.footer-list:focus .join-media {
+  fill: var(--accent-color);
+}
+.footer-list:hover,
+.footer-list:hover {
+  color: var(--accent-color);
+}
 
 /*portfolio section */
 
