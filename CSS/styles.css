@@ -449,7 +449,7 @@ li {
 }
 .footer-list:hover,
 .footer-list:hover {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /*portfolio section */
