@@ -339,6 +339,7 @@ img {
 }
 .client-link {
   fill: var(--primary-text-color);
+  border-radius: 4px;
 }
 .client-list {
   border: 1px solid var(--primary-text-color);
