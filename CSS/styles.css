@@ -337,6 +337,7 @@ img {
 .address-section {
   margin-bottom: 0;
   padding: 0;
+  display: inline;
 }
 .address .street:not(:last-child) {
   margin-bottom: 9px;
@@ -367,15 +368,29 @@ img {
   line-height: 1.14;
   color: var(--additional-color);
   text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.first-footer {
+  margin-right: 156px;
+}
+.second-footer {
+  display: flex;
 }
 .social-list {
-  display: flex;
+  align-items: center;
+  display: inline-flex;
+}
+.social-link {
+  margin-right: 10px;
 }
 
 /*portfolio section */
-.projects {
-  padding-bottom: 94px;
-}
+
 .section .hidden {
   position: absolute;
   width: 1px;
