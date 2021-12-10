@@ -337,20 +337,35 @@ img {
   justify-content: center;
   padding-bottom: 94px;
 }
-.client-link {
-  fill: var(--primary-text-color);
+.clients-link {
   border-radius: 4px;
+  color: var(--additional-color);
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .clients-icons {
   width: 106px;
   height: 60px;
+  color: var(--primary-text-color);
+  fill: currentColor;
 }
 .client-list {
-  border: 1px solid var(--primary-text-color);
-  border-radius: 4px;
   margin-right: 30px;
-  padding: 16px 32px;
+  border: 1px solid var(--primary-text-color);
   background-color: var(--additional-color);
+}
+.clients-link .clients-icons:hover,
+.clients-link .clients-icons:focus {
+  color: var(--additional-color);
+  background-color: var(--accent-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
 }
 li {
   display: list-item;
