@@ -283,7 +283,6 @@ img {
 
 .team-social-list li:not(:last-child) {
   margin-right: 10px;
-  padding-bottom: 30px;
 }
 .team-social-list li {
   list-style: none;
