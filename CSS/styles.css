@@ -422,7 +422,7 @@ li {
   font-weight: 700;
 }
 .footer-link {
-  color: var(--primary-text-color);
+  color: var(--additional-color);
   width: 44px;
   height: 44px;
   justify-content: center;
