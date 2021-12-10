@@ -423,6 +423,9 @@ li {
 }
 .footer-link {
   color: var(--primary-text-color);
+  width: 44px;
+  height: 44px;
+  justify-content: center;
 }
 .footer-icons {
   padding: 0;
@@ -430,14 +433,11 @@ li {
   list-style: none;
 }
 .footer-list {
-  width: 44px;
-  height: 44px;
   border: none;
   border-radius: 50%;
   align-items: center;
   display: flex;
   margin-right: 10px;
-  justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
 }
 .join-media {
@@ -449,8 +449,8 @@ li {
 .footer-list:not(:last-child) {
   margin-right: 10px;
 }
-.footer-link:hover .join-media,
-.footer-link:focus .join-media {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--additional-color);
   background-color: var(--accent-color);
 }
